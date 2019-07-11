@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <title>Task2</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </head>
 <body>
         <button type="button" class="btn btn-primary">Кнопка#1</button>
@@ -15,6 +18,84 @@
             <button type="button" class="btn btn-primary">Группы</button>
             <button type="button" class="btn btn-primary">Кнопок</button>
         </div>
+        <br>
+        <br>
+        <h4>ЕЕЕЕ ЛГБТ</h4>
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-secondary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-success" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-danger" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-warning" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-info" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-light" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-border text-dark" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Выпадающее меню
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Раз</a>
+                <a class="dropdown-item" href="#">Два</a>
+                <a class="dropdown-item" href="#">Три</a>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Сюда введи мыло</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Мыло">
+                <small id="emailHelp" class="form-text text-muted">Задумайся...</small>
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Сюда введи пароль</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль">
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Галочка подтверждает отсутствие мозговой деятельности</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Поздравляю, тебя заскамили</button>
+        </form>
+
+        <br>
+        <br>
+
+        <form class="form-inline">
+            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Выбери свой путь</label>
+            <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                <option selected>КФУ</option>
+                <option value="1">КАИ</option>
+                <option value="2">ИННОПОЛИС</option>
+                <option value="3">Фриланс</option>
+            </select>
+
+            <div class="custom-control custom-checkbox my-1 mr-sm-2">
+                <input type="checkbox" class="custom-control-input" id="customControlInline">
+                <label class="custom-control-label" for="customControlInline">Я сделал правильный выбор</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary my-1">Плакать</button>
+        </form>
+
         <br>
         <br>
 
@@ -44,7 +125,5 @@
             <hr>
             <p class="mb-0">Так держать!</p>
         </div>
-
-
 </body>
 </html>
